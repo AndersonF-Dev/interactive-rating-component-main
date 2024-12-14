@@ -10,13 +10,14 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal.css">
 
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
 
-  <section class="content">
+  <section class="content abagado">
     <!-- Rating state start -->
      <div class="icon-star"><img src="images/icon-star.svg" alt="icon-star"></div>
     <div class="informacoes">
@@ -36,19 +37,30 @@
       </ol>
     </div>
         <button>Submit</button>
-    <!-- Rating state end -->
-    <!-- Thank you state start -->
-    <div class="none">
-      You selected <!-- Add rating here --> out of 5
-      Thank you!
-      We appreciate you taking the time to give a rating. If you ever need more support,
-      don’t hesitate to get in touch!
-      <!-- Thank you state end -->
-    </div>
+   
   </section>
 
+   <!-- Rating state end -->
+    <!-- Thank you state start -->
+    <section class="thank-you-section">
+      <div class="rating-container">
+        <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+        <p class="selected-rating">You selected <span>4</span> out of 5</p>
+        
+      </div>
+      <div class="thank-informacoes">
+        <h1 class="thank-you-title">Thank you!</h1>
+        <p class="thank-you-message">
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+      
+      <!-- Thank you state end -->
+    </section>
+
   
-  <div class="attribution">
+  <div class="attribution abagado">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
