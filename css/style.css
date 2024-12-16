@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Overpass", sans-serif; */
+
 
 body {
     width: 100%;
@@ -14,9 +14,6 @@ body {
     color:  hsl(0, 0%, 100%);
     font-family: "Overpass", sans-serif;
 }
-.abagado{
-    display: none;
-}
 .content {
     background-color: hsl(213, 19%, 18%);
     max-width: 23.1rem;
@@ -24,6 +21,7 @@ body {
     border-radius: 2rem;
     padding: 2rem;
     overflow: hidden;
+    position: relative;
 }
 
 .icon-star{
@@ -37,7 +35,7 @@ body {
 }
 
 .informacoes h1{
-    /* font-size: 2rem; */
+    
     margin-top: 2rem;
 }
 
@@ -69,13 +67,12 @@ body {
 }
 
 .lista-numero li.ativo{
-    background-color:  hsl(0, 0%, 100%);
+    background-color:  hsl(0, 0%, 100%); 
     color: #414344;
 }
 .lista-numero li:hover{
     background-color: hsl(25, 97%, 53%);
     color:  hsl(0, 0%, 100%);
-    border: 1px solido color: hsl(0, 0%, 100%);
 }
 
 button{
@@ -98,38 +95,6 @@ button:hover {
     background-color:  hsl(0, 0%, 100%);
 }
 
-/* .none{
-    display: none;
-} */
 
-
-/* @media (min-width: 400px) {
-    .content {
-        max-width: 85%;
-        height: 450px;
-    }
-}
-
-@media (min-width: 500px) {
-    .content {
-        max-width: 69%;
-        height: 450px;
-    }
-}
-
-@media (min-width: 800px) {
-    .content {
-        max-width: 49%;
-        height: 430px;
-    }
-}
-
-@media (min-width: 1643px) {
-    .content {
-        max-width: 49%;
-        height: 430px;
-    }
-} */
-    
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;  display: none;}
 .attribution a { color: hsl(228, 45%, 44%); }
