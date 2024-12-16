@@ -10,7 +10,7 @@ Esta é uma solução para o [Interactive rating component challenge on Frontend
 ### Link
 
 
-- URL do site ativo: [link aqui](https://andersonf-dev.github.io/3-column-preview-card-component/)
+- URL do site ativo: [link aqui](https://andersonf-dev.github.io/interactive-rating-component-main/)
 
 ```js
 // Seleciona os elementos necessários
