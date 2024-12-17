@@ -48,8 +48,10 @@ openModalButton.addEventListener("click", openModal);
 
 ### O que aprendi
 
-Aprendi a criar uma card, posicionar elementos na tela centralizar
-
+- Aprendi a criar uma card, posicionar elementos na tela centralizar, consutar o HTML atraves do DOM com JavaScript.
+- Acesar uma lista e manipolar ela pelo JavaScript. 
+- Adicionar e remover o ativo.
+- Capiturar e exibir dado deacordo com o clik na lista e exibir o mesmo valor em outro lugar
 
 ### Desenvolvimento contínuo
 
